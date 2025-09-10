@@ -3,17 +3,100 @@ Theme Name: CosmicEnergy
 Theme URI: https://cosmicenergy.cc
 Author: Paul Blazevic
 Author URI: https://cosmicenergy.cc
-Description: A cosmic-themed WordPress theme to harness cosmic energy vibes.
+Description: CosmicEnergy — feel the cosmic vibes throughout your website! Based on Lumivista theme. Modern, clean, and full of cosmic energy.
 Version: 1.0
 License: GNU General Public License v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: cosmicenergy
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, theme-options, translation-ready
 */
 
+/* -----------------------------
+   Global Styles
+----------------------------- */
 body {
-    font-family: 'Arial', sans-serif;
-    background: radial-gradient(circle, #0f0c29, #302b63, #24243e);
-    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    background: #0d0d2b; /* deep cosmic purple */
+    color: #f0f0f0;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+}
+
+a {
+    color: #ff6ec7; /* cosmic pink */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00f7ff; /* electric cyan */
+}
+
+/* -----------------------------
+   Header & Navigation
+----------------------------- */
+header.site-header {
+    background: linear-gradient(90deg, #0d0d2b, #1a1a40);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header.site-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ff6ec7;
+    margin: 0;
+}
+
+/* -----------------------------
+   Hero Section
+----------------------------- */
+.hero-section {
+    background: url('assets/images/cosmic-hero.jpg') no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 2.5rem;
+    text-shadow: 0 0 20px rgba(255, 110, 199, 0.7);
+}
+
+/* -----------------------------
+   Main Content
+----------------------------- */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00f7ff;
+}
+
+/* -----------------------------
+   Footer
+----------------------------- */
+footer.site-footer {
+    background: #0d0d2b;
+    color: #888;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #333;
+}
+
+footer.site-footer a {
+    color: #ff6ec7;
 }
