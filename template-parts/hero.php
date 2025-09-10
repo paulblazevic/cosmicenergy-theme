@@ -1,4 +1,4 @@
 <section class="hero">
-    <h2>Welcome to CosmicEnergy</h2>
-    <p>Feel the cosmic vibes throughout your website!</p>
+    <h1>Welcome to CosmicEnergy</h1>
+    <p>Harness the cosmic vibes and power up your website!</p>
 </section>

@@ -1,19 +1,9 @@
-body {
-    background: radial-gradient(circle at center, #0b0c1a, #1b1b3a);
-    color: #f0f8ff;
-    font-family: 'Arial', sans-serif;
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
 }
-
-a {
-    color: #00ffff;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-a:hover {
-    color: #ff00ff;
-}
-
-h1, h2, h3 {
-    text-shadow: 0 0 10px #0ff, 0 0 20px #f0f;
+section h2 {
+    color: #ffd700;
 }

@@ -1,16 +1,21 @@
-<?php get_template_part('template-parts/header'); ?>
-<?php get_template_part('template-parts/hero'); ?>
+<?php get_header(); ?>
 
-<main id="primary" class="site-main">
+<main>
+    <?php get_template_part('template-parts/hero'); ?>
+
+    <section>
+        <h2>Welcome to CosmicEnergy</h2>
+        <p>Feel the cosmic vibes throughout your website!</p>
+    </section>
+
     <?php
     if ( have_posts() ) :
         while ( have_posts() ) : the_post();
+            the_title('<h3>','</h3>');
             the_content();
         endwhile;
-    else :
-        echo "<p>No content found</p>";
     endif;
     ?>
 </main>
 
-<?php get_template_part('template-parts/footer'); ?>
+<?php get_footer(); ?>
